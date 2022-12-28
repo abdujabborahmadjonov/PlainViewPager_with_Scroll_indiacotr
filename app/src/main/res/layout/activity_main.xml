@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context=".MainActivity">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/myViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+     />
+
+    <me.relex.circleindicator.CircleIndicator
+        android:id="@+id/my_circle_indicatior"
+        android:layout_gravity="bottom"
+        android:scrollIndicators="left"
+        android:layerType="hardware"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        />
+    <TextView
+        android:background="@drawable/background_img"
+        android:layout_width="wrap_content"
+        android:text="O'tkazib yuborish"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_gravity="end"
+        android:textColor="@color/white"
+        android:padding="@dimen/_5sdp"
+        android:id="@+id/next"
+        android:layout_height="wrap_content">
+
+    </TextView>
+</FrameLayout>

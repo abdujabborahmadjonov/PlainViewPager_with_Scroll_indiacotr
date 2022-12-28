@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.AddMeFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.9"
+        android:paddingStart="@dimen/_115sdp"
+        android:paddingEnd="@dimen/_45sdp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/addte"
+        android:transformPivotX="@dimen/_20sdp"
+        android:transformPivotY="@dimen/_20sdp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Bizga qoshiling"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_65sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:text="Ey ko‘ngul, chun yaxshidin ko‘rdung yamonliq asru ko‘p, Emdi ko‘z tutmoq ne ma’ni har yamondin yaxshilig'?"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+</FrameLayout>
